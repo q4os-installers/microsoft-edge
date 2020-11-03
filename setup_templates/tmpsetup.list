@@ -1,0 +1,2 @@
+##deb [ trusted=yes arch=amd64 ] http://q4os.org/qextrepo buster-msedge-cn main
+deb [ trusted=yes arch=amd64 ] http://packages.microsoft.com/repos/edge/ stable main
