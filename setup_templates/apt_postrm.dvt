@@ -8,6 +8,8 @@ if [ "$1" = remove ] ; then
 
   # remove possible edge repos
   echo "Remove possible edge repos"
+  rm -f /etc/apt/sources.list.d/microsoft-edge-stable.list
+  rm -f /etc/apt/sources.list.d/microsoft-edge-beta.list
   rm -f /etc/apt/sources.list.d/microsoft-edge-dev.list
   rm -f /etc/apt/sources.list.d/microsoft-edge.list
 
