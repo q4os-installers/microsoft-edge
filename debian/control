@@ -1,0 +1,17 @@
+Source: msedge-extq
+Section: none
+Priority: optional
+Maintainer: Q4OS Team <devteam@q4os.org>
+Build-Depends: debhelper (>= 9~), q4os-devpack-base
+Standards-Version: 3.8.4
+
+Package: msedge-extq
+Architecture: amd64
+Pre-Depends: q4os-desktop (>= 4.0), microsoft-edge-stable
+Depends:
+Recommends:
+Conflicts: q4os-msedge
+Provides:
+Replaces:
+Breaks:
+Description: Microsoft Edge metapackage

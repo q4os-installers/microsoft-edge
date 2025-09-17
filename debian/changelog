@@ -1,0 +1,14 @@
+msedge-extq (1.1-a1) UNRELEASED; urgency=medium
+
+  * Initial commit
+  * Add images to the installer
+  * Change version
+  * Add apt keyring
+  * Replace "dev" with "beta" as Microsoft have released beta now
+  * Move from beta to stable Edge version
+  * Update Microsoft keyring and add it into the package
+  * Handle Edge repositories on install and possible upgrade
+  * New version
+  * Add signed-by keyword to repository definition
+
+ -- Q4OS Team <devteam@q4os.org>  Wed, 17 Sep 2025 12:18:08 +0200
